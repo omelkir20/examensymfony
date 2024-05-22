@@ -1,3 +1,15 @@
 controllers:
     resource: ../src/Controller/
     type: attribute
+
+product_dashboard:
+    path: /produit/dashbord
+    controller: App\Controller\ProductController::dashboard
+
+product_add:
+    path: /produit/add
+    controller: App\Controller\ProductController::add
+
+product_list:
+    path: /produit/list
+    controller: App\Controller\ProductController::list
